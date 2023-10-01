@@ -45,6 +45,7 @@
                 android:id="@+id/editTextTextEmailAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
                 android:autofillHints="xyz@gmail.com"
                 android:ems="10"
                 android:inputType="textEmailAddress"
@@ -64,6 +65,8 @@
                 android:id="@+id/editTextTextPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="5dp"
                 android:ems="10"
                 android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +107,7 @@
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#00F4C2C2"
